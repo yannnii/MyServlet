@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Form</title>
+</head>
+<body>
+<form action="MyServlet" method="POST">
+    <div> Name: </div>
+    <input type="text" name="username" value="" size="30"/>
+    <div> Age: </div>
+    <input type="text" name="userage" value="" size="30"/>
+    <div> Gender: </div>
+    <input type="radio" name="usergender" value="female" checked />Female
+    <input type="radio" name="usergender" value="male" />Male
+    <br><br>
+    <div> Country: </div>
+    <select name="usercountry">
+    <option>Russia</option>
+    <option>Spain</option>
+    <option>France</option>
+    <option>Germany</option>
+    </select>
+    <br><br>
+    <input type="submit" value="MyServlet" />
+</form>
+</body>
+</html>
